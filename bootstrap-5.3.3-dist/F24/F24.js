@@ -21,7 +21,7 @@ document.querySelectorAll('.accordion').forEach(item => {
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     if (window.scrollY > 50) {
-        nav.style.backgroundColor = '#CC0000';
+        nav.style.backgroundColor = '#007860';
         nav.style.transition = '0.5s';
     } else {
         nav.style.backgroundColor = '#000000';
